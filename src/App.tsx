@@ -5,6 +5,7 @@ import { useTimer } from './hooks/useTimer';
 import { useFullscreen } from './hooks/useFullscreen';
 import { useWelcomeModal } from './hooks/useWelcomeModal';
 import { Terminal, Heart } from 'lucide-react';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const { state, setDuration, start, pause, reset } = useTimer();
@@ -27,6 +28,8 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center p-4">
+      <Analytics />
+      
       {showWelcome && <WelcomeModal onClose={closeWelcome} />}
       
       <div className="flex items-center gap-3 mb-8">
