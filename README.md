@@ -28,7 +28,7 @@ Idle Time is a brutally simple mindfulness timer designed for developers. Take a
 
 ## Live Demo
 
-🚀 **[Try Idle now](https://idletimer.vercel.app)**
+🚀 **[Try Idle now](https://idletime.vercel.app/)**
 
 ---
 
