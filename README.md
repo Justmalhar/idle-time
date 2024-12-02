@@ -32,6 +32,12 @@ Idle Time is a brutally simple mindfulness timer designed for developers. Take a
 
 ---
 
+## Quick Deployment on Vercel
+Deploying **Idle Time** is simple and fast with Vercel's one-click deployment option. Vercel provides a powerful and scalable environment for your project.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/justmalhar/idle-time)
+
+
 ## Installation
 
 To run this project locally:
